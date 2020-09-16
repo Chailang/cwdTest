@@ -7,7 +7,7 @@
 //
 
 #import "CWDViewController.h"
-
+#import "CWDFuncA.h"
 @interface CWDViewController ()
 
 @end
@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [CWDFuncA say];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

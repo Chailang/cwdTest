@@ -29,7 +29,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
-  - cwdTest (from `../`)
+  - cwdTest (from `https://github.com/Chailang/cwdTest.git`)
   - Expecta
   - "Expecta+Snapshots"
   - FBSnapshotTestCase
@@ -45,7 +45,12 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   cwdTest:
-    :path: "../"
+    :git: https://github.com/Chailang/cwdTest.git
+
+CHECKOUT OPTIONS:
+  cwdTest:
+    :commit: 095bc50990469bb9381946406f3681de81065ec6
+    :git: https://github.com/Chailang/cwdTest.git
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
@@ -55,6 +60,6 @@ SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
-PODFILE CHECKSUM: 563fe6776d152d5eece12d53e0af2541c6b59102
+PODFILE CHECKSUM: d98ab9897d4e3a47b7f159c55b68c455d6b30ed5
 
 COCOAPODS: 1.9.3
