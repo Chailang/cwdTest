@@ -1,0 +1,22 @@
+{
+  "name": "cwdTest",
+  "version": "0.1.0",
+  "summary": "A short description of cwdTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/15600811610@163.com/cwdTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "15600811610@163.com": "ext.chaiweidong@jd.com"
+  },
+  "source": {
+    "git": "https://github.com/15600811610@163.com/cwdTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "cwdTest/Classes/**/*"
+}

@@ -4,7 +4,7 @@ platform :ios, '8.0'
 
 target 'cwdTest_Example' do
   pod 'cwdTest', :path => '../'
-
+  pod 'AFNetworking'
   target 'cwdTest_Tests' do
     inherit! :search_paths
 
@@ -14,3 +14,4 @@ target 'cwdTest_Example' do
     pod 'Expecta+Snapshots'
   end
 end
+
